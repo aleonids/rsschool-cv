@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.top-container {
+  background-color: #f1f7e7;
+  position: relative;
+  padding: 20px 0px;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 2, 5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 20%;
+  float: right;
+  margin-right: 30px;
+}
+
+.list {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0px 50px 0px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.stack-img {
+  width: 20%;
+  float: right;
+}
+
+.rs-school-img {
+  width: 5%;
+}
+
+.btn {
+  background: #11cdd4;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  text-decoration: none;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
