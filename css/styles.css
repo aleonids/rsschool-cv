@@ -1,0 +1,226 @@
+body {
+  /*position: absolute;*/
+  /* display: flex; */
+  width: 1440px;
+  background-color: #edf2ec;
+  margin: auto;
+  /* flex-direction: column; */
+}
+
+a {
+  text-decoration: none;
+  color: #010201;
+}
+
+a:hover {
+  /* background-color: red;*/
+  color: #e06733;
+}
+
+.header {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 134px;
+  /* border: 1px;
+  border: solid; */
+}
+
+.navigation {
+  display: flex;
+  width: 85%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  font-family: inika;
+  font-size: 16px;
+  font-weight: bold;
+  /* border: 1px;
+  border: solid;*/
+}
+
+.header_links {
+  display: flex;
+  width: 37%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px;
+  border: solid;*/
+}
+.header_item {
+  padding: 5px 5px;
+  margin-left: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.welcome {
+  display: flex;
+  height: 532px;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px;
+  border: solid; */
+}
+
+.welcome_section {
+  display: flex;
+  height: 407px;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px;
+  border: solid; */
+}
+
+.welcome_text {
+  width: 45%;
+  height: 340px;
+  /* border: 1px;
+  border: solid; */
+}
+
+.welocme_paragraph {
+  color: #636060;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 35px;
+  text-align: left;
+}
+
+h1 {
+  color: #717171;
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0 0 42px 0;
+  line-height: 111%;
+}
+
+h2 {
+  color: #499a18;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Inika;
+  margin: 0;
+}
+
+.btn {
+  display: flex;
+  border-radius: 10px;
+  font-family: Inter;
+  width: 29%;
+  /* height: 44px; */
+  padding: 14px 27px 14px 27px;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-size: 16px;
+  border: 2px solid #e06733;
+  text-decoration: none;
+  margin: 38px 0 0 0;
+}
+
+.btn:hover {
+  background: #e06733;
+  color: white;
+  text-decoration: none;
+}
+
+.green_text {
+  color: #499a18;
+}
+
+.orange_text {
+  color: #e06733;
+}
+
+.about {
+  display: flex;
+  height: 666px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 0 7.56%;
+  /* border: 1px;
+  border: solid; */
+}
+
+.about_text {
+  width: 50%;
+  height: 350px;
+  /* border: 1px;
+  border: solid; */
+}
+
+.about_paragraph {
+  color: #636060;
+  font-size: 20px;
+  font-family: Inter;
+  text-align: left;
+  line-height: 150%;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h3 {
+  color: #11999e;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 20%;
+  float: right;
+  margin-right: 30px;
+}
+
+.list {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0px 50px 0px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.stack-img {
+  width: 20%;
+  float: right;
+}
+
+.rs-school-img {
+  width: 5%;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
